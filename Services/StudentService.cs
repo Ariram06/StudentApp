@@ -1,5 +1,6 @@
 ﻿using StudentApp.Models;
 using StudentApp.Repository;
+using System.ComponentModel.DataAnnotations;
 
 namespace StudentApp.Services;
 
@@ -37,6 +38,20 @@ public class StudentService
     }
 
 
+    public void Display()
+    {
+        StudentRepository obj = new StudentRepository();
+        List<Student> l = obj.GetStudentData();
+
+        foreach(Student s in l)
+        {
+            Console.WriteLine($"ID: {s.StudentId} | Name: {s.Name} | Email: {s.Email} | Age: {s.Age} | Dept ID: {s.DepartmentId} | Date: {s.AdmissionDate.ToShortDateString()} | Active: {s.IsActive}");
+        }
+
+
+    }
+
+
     public void Run()
     {
         bool valid = true;
@@ -61,7 +76,7 @@ public class StudentService
                     break;
 
                 case "2":
-                   
+                    Display();
                     break;
 
 

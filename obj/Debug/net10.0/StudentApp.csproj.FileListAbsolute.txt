@@ -58,3 +58,4 @@ C:\Users\admin\source\repos\StudentApp\StudentApp\obj\Debug\net10.0\refint\Stude
 C:\Users\admin\source\repos\StudentApp\StudentApp\obj\Debug\net10.0\StudentApp.pdb
 C:\Users\admin\source\repos\StudentApp\StudentApp\obj\Debug\net10.0\StudentApp.genruntimeconfig.cache
 C:\Users\admin\source\repos\StudentApp\StudentApp\obj\Debug\net10.0\ref\StudentApp.dll
+C:\Users\admin\source\repos\StudentApp\StudentApp\obj\Debug\net10.0\StudentApp.sourcelink.json
