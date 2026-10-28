@@ -12,6 +12,9 @@ public class Program
 
         StudentService obj1 = new StudentService();
         CourseService obj2 = new CourseService();
+        DepartmentService obj3 = new DepartmentService();
+        EnrollmentService obj4 = new EnrollmentService();
+        AuditLogService obj5 = new AuditLogService();
         while (valid)
         {
 
@@ -33,6 +36,18 @@ public class Program
 
                 case "2":
                     obj2.Run();
+                    break;
+
+                case "3":
+                    obj3.Run();
+                    break;
+
+                case "4":
+                    obj4.Run();
+                    break;
+
+                case "5":
+                    obj5.Run();
                     break;
 
             }
